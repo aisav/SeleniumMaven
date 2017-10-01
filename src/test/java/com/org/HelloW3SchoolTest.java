@@ -9,11 +9,11 @@ import org.testng.annotations.Test;
 public class HelloW3SchoolTest extends BaseClass {
 
 //    @Test(priority = 2)
-    @Parameters("email")
+//    @Parameters("email")
     @Test
-    public void goToBootstrap(String email) throws InterruptedException {
+    public void goToBootstrap() throws InterruptedException {   //String email argument
 
-        System.out.println("=================== go To Bootstrap Learning"+email);
+        System.out.println("=================== go To Bootstrap Learning");
 //        System.setProperty("webdriver.gecko.driver", "C:\\devTools\\geckodriver.exe");
         String url = "http://www.w3schools.com/";
         driver.get(url);
