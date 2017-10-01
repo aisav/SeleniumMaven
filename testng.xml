@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteName">
+<!--    <suite-files>
+        <suite-file path="./suite2.xml"></suite-file>
+    </suite-files>-->
+    <parameter name="email" value="a@a.ak" />
+    <test verbose="2" name="TestsName">
+        <classes>
+            <class name="com.org.HelloW3SchoolTest" />
+        </classes>
+    </test>
+</suite>
