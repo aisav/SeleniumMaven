@@ -9,6 +9,7 @@
     <test verbose="2" name="TestsName">
         <classes>
             <class name="com.org.HelloW3SchoolTest" />
+            <class name="com.org.DataProviderTest" />
         </classes>
     </test>
 </suite>
