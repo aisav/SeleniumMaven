@@ -10,7 +10,7 @@ public class HelloW3SchoolTest extends BaseClass {
 
 //    @Test(priority = 2)
 //    @Parameters("email")
-    @Test
+    @Test(groups = {"performance"})
     public void goToBootstrap() throws InterruptedException {   //String email argument
 
         System.out.println("=================== go To Bootstrap Learning");
